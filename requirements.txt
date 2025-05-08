@@ -1,0 +1,6 @@
+numpy
+matplotlib
+requests
+python-dotenv
+tqdm
+
