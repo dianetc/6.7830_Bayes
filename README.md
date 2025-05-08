@@ -4,10 +4,10 @@ This repository contains code to test the martingale property in language models
 
 ## Project Overview
 
-The code implements testing frameworks to evaluate if various LLMs (like GPT-4o-mini, Grok-beta, and DeepSeek-chat) satisfy the martingale property when generating samples from statistical distributions.
+The code implements testing frameworks to evaluate if various LLMs (like GPT-4o-mini, Grok-beta, and DeepSeek-R1) satisfy the martingale property when generating samples from statistical distributions.
 
 Two implementations are provided:
-- `experiment.py`: Initial implementation using Together AI API (more complex and I couldn't make it work efficiently)
+- `experiment.py`: Initial implementation using Together AI API (more complex and I couldn't make it work efficiently), so I had to swich tactics :(
 - `martingale_experiments.py`: Current implementation using OpenAI CLI for Grok, Deepseek, and 4o-mini
 
 ## Installation
